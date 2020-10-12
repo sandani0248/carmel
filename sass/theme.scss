@@ -1,0 +1,292 @@
+@import "compass/css3";
+@import "variables.scss";
+@import "rgbapng";
+
+.btn {
+	@include border-radius(1px);
+	font-family: $body-font-family;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	
+	&.btn-cta {
+		background: #F8CA79;
+		color: $color-brand;
+		font-weight: 700;
+		line-height: 27px;
+		font-size: 12px;
+		@include box-shadow(0px 8px 16px -6px $color-gray);
+		
+		&.shadow-dark {
+			@include box-shadow(0px 8px 16px -6px $color-dark);
+		}
+	}
+	
+	&.btn-dark {
+		background: $color-dark;
+		color: $color-bright;
+		font-weight: bold;
+		line-height: 27px;
+		font-size: 12px;
+		@include box-shadow(0px 8px 16px -6px $color-gray);
+		
+		&.shadow-dark {
+			@include box-shadow(0px 8px 16px -6px $color-dark);
+		}
+	}
+	
+	&.btn-wide {
+		padding-left: 21px;
+		padding-right: 21px;
+	}
+}
+
+.intl-tel-input {
+	display: block;
+	position: relaitve;
+}
+
+.intl-tel-input input, .intl-tel-input input[type=text], .intl-tel-input input[type=tel] {
+	padding-left: 45px;
+}
+
+.intl-tel-input .selected-flag {
+	height: auto;
+	top: 15px;
+	padding: 0px;
+	width: 36px;
+}
+
+.slick-dots {
+	text-align: center;
+	padding: 0;
+	margin-bottom: 15px;
+	
+	li {
+		position: relative;
+		display: inline-block;
+		width: 6px;
+		height: 6px;
+		margin: 0 3px;
+		padding: 0;
+		cursor: pointer;
+		
+		button {
+			font-size: 0;
+			line-height: 0;
+			display: block;
+			width: 6px;
+			height: 6px;
+			padding: 0px;
+			cursor: pointer;
+			color: transparent;
+			border: 0;
+			outline: none;
+			background: transparent;
+			
+			&:before, &::before {
+				content: ' ';
+				position: absolute;
+				top: 0;
+				bottom: 0px;
+				left: 0;
+				right: 0px;
+				left: 0px;
+				margin: auto auto;
+				width: 6px;
+				height: 6px;
+				background: lighten($color-brand, 18%);
+				@include border-radius(50%);
+			}
+		}
+		
+		&.slick-active {
+			button {
+				&:before, &::before {
+					width: 6px;
+					height: 6px;
+					//@include box-shadow(0px 0px 0px 3px #b5a2b7);
+					@include rgba-background(rgba($color-accent, 1));
+				}
+			}
+		}
+	}
+}
+
+.list {
+	padding-left: 18px;
+	margin-bottom: 15px;
+	
+	& > li {
+		padding-left: 6px;
+		margin-bottom: 6px;
+	}
+	
+	&.special {
+		margin: 30px 0px;
+		
+		@media(min-width: 767px) {
+			margin-right: 45px;
+		}
+		
+		& > li {
+			margin-bottom: 15px;
+			
+			@media(min-width: 991px) {
+				text-align: justify;
+			}
+		}
+	}
+	
+	&.two-col {
+		
+		@media(min-width: 768px) {
+			column-count: 2;
+			list-style-position: inside;
+			padding-left: 0px;
+		}
+	}
+}
+
+input[type=checkbox], input[type=radio] {
+	margin-right: 6px;
+}
+
+section {
+	
+	&.light-brand-sec {
+		background: $color-light;
+	}
+}
+
+.form-control {
+	@include border-radius(0px);
+	@include box-shadow(none !important);
+	border: none;
+	border-bottom: 1px solid $color-light-gray;
+	font-size: 13px;
+	padding: 0px;
+}
+
+textarea {
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 100px;
+}
+	
+.form-group {
+
+	label {
+		
+		&.error, &.cust-error {
+			color: #8b0000;
+			font-size: 12px;
+			padding: 3px;
+			line-height: 1;
+			padding: 0px;
+			margin: 0px;
+			padding-top: 6px;
+			display: block;
+			width: 100%;
+			text-align: left;
+			font-weight: 400;
+		}
+	}
+}
+
+.table {
+	
+	thead {
+		
+		& > tr {
+			font-size: 13px;
+			line-height: 1.5;
+			
+			& > th {
+				background: $color-light-gray;
+				color: $color-dark;
+				font-weight: bold;
+				white-space: nowrap;
+			}
+		}
+	}
+	
+	tbody {
+		
+		& > tr {
+			font-size: 13px;
+			line-height: 1.5;
+				
+			& > td {
+				background: $color-bright;
+				white-space: nowrap;
+			}
+			
+			& > th {
+				color: $color-dark;
+				font-weight: 400;
+				white-space: nowrap;
+			}
+		}
+	}
+}
+
+#toTop {
+	display: none;
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	background: $color-brand;
+	@include rgba-background(rgba($color-brand, 0.5));
+	border: 2px solid $color-bright;
+	color: $color-bright;
+	font-size: 18px;
+	font-weight: bold;
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	@include border-radius(6px);
+	padding-top: 12px;
+	@include transition(opacity 0.3s ease-in-out);
+	opacity: 0;
+	
+	&.visible {
+		opacity: 0.9;
+	}
+}
+
+.breadcrumb-nav {
+	background: $color-light;
+	
+	.breadcrumb {
+		background: none;
+		padding: 30px 0px;
+		margin: 0px;
+		font-size: 12px;
+		color: $color-body-text;
+		
+		& > li {
+			color: $color-body-text;
+			font-size: inherit;
+			
+			& > a {
+				color: inherit !important;
+				font-size: inherit;
+			}
+			
+			&.active {
+				color: $color-brand;
+			}
+			
+			&+li:before {
+				content: '»';
+				color: $color-accent;
+			}
+		}
+	}
+	
+	@media(max-width: 767px) {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}

@@ -1,0 +1,29 @@
+/*
+
+Theme Name: carmel Theme
+Theme URI: https://carmelheights.in/blog/
+Author: Deep Red Ink
+Author URI: https://carmelheights.in/blog/
+Description: Custom theme for carmel Theme.
+Version: 1.0
+
+*/
+
+/* for full width posts layout as other common blog layouts */
+
+#blog .box {
+    background: none; 
+}
+#blog .box-body {
+  
+}
+
+#blog .box-body .btn{
+
+}
+.box-body
+{
+    background-color:#fff;
+    padding:15px;
+}
+

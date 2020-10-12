@@ -1,0 +1,10 @@
+[06-Jun-2019 19:35:54 Asia/Kolkata] 
+New Enquiry | full_name: 'jagan', phone: '+919951123988', email: 'jagan365@gmail.com', message: '', lead_type: 'Carmel Heights Website | New Enquiry', date_captured: '2019-06-06 19:35:54'
+
+
+[06-Jun-2019 19:35:54 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'carmelheights_db'@'localhost' (using password: YES) in /var/www/html/leadgrab.php on line 80
+[06-Jun-2019 19:35:54 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/html/leadgrab.php on line 84
+[06-Jun-2019 19:35:54 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_info() in /var/www/html/leadgrab.php:85
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/leadgrab.php on line 85

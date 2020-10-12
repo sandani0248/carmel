@@ -1,0 +1,20 @@
+[10-Feb-2020 10:35:43 Asia/Kolkata] 
+New Enquiry | full_name: 'Neha Purohit', phone: '+918142548644', email: 'neha1792purohit@gmail.com', lead_type: 'Carmel Heights Website | New Enquiry', date_captured: '2020-02-10 10:35:43'
+
+
+[10-Feb-2020 10:35:43 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'carmelheights_db'@'localhost' (using password: YES) in /home/deepred/public_html/demos/close-to-work-closer-to-family/leadgrab.php on line 80
+[10-Feb-2020 10:35:43 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/deepred/public_html/demos/close-to-work-closer-to-family/leadgrab.php on line 84
+[10-Feb-2020 10:35:43 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_info() in /home/deepred/public_html/demos/close-to-work-closer-to-family/leadgrab.php:85
+Stack trace:
+#0 {main}
+  thrown in /home/deepred/public_html/demos/close-to-work-closer-to-family/leadgrab.php on line 85
+[10-Feb-2020 12:51:45 Asia/Kolkata] 
+New Enquiry | full_name: 'lakshmi priya', phone: '+918976543217', email: 'lakshmipriyauv99@gmail.com', lead_type: 'Carmel Heights Website | New Enquiry', date_captured: '2020-02-10 12:51:45'
+
+
+[10-Feb-2020 12:51:45 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'carmelheights_db'@'localhost' (using password: YES) in /home/deepred/public_html/demos/close-to-work-closer-to-family/leadgrab.php on line 80
+[10-Feb-2020 12:51:45 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/deepred/public_html/demos/close-to-work-closer-to-family/leadgrab.php on line 84
+[10-Feb-2020 12:51:45 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_info() in /home/deepred/public_html/demos/close-to-work-closer-to-family/leadgrab.php:85
+Stack trace:
+#0 {main}
+  thrown in /home/deepred/public_html/demos/close-to-work-closer-to-family/leadgrab.php on line 85
