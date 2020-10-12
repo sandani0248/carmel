@@ -1,0 +1,36 @@
+<?php
+// datastore=auditqueue;
+// created_on=1593076700;
+// updated_on=1594289997;
+exit(0);
+?>
+1593076700_8852:"Debug: root, 124.123.179.98; Sucuri plugin has been uninstalled"
+1593152567_4721:"Warning: root, 49.37.133.241; Plugin activated: Sucuri Security - Auditing, Malware Scanner and Hardening (v1.8.24; sucuri-scanner\/sucuri.php)"
+1593154980_025:"Notice: root, 49.37.133.241; Hardening applied to the library directory"
+1593154982_4277:"Notice: root, 49.37.133.241; Hardening applied to the uploads directory"
+1593154986_1922:"Notice: root, 49.37.133.241; Hardening applied to the content directory"
+1593156184_7583:"Warning: root, 49.37.133.241; User account created; ID: 2; name: carmel; email: priya@deepredink.com; roles: subscriber"
+1593156184_7967:"Error: root, 49.37.133.241; Password retrieval attempt: carmel"
+1593156184_8082:"Warning: root, 49.37.133.241; User account edited; ID: 2; name: carmel; old_name: carmel; email: priya@deepredink.com; old_email: priya@deepredink.com; roles: subscriber; old_roles: subscriber"
+1593156232_1432:"Warning: root, 49.37.133.241; User account edited; ID: 2; name: carmel; old_name: carmel; email: priya@deepredink.com; old_email: priya@deepredink.com; roles: administrator; old_roles: subscriber"
+1593156269_2826:"Notice: 49.37.133.241; User authentication succeeded: carmel"
+1593156269_3544:"Notice: carmel, 49.37.133.241; Post status has been changed; details: ID: 9,Old status: new,New status: auto-draft,Title: Auto Draft"
+1593156295_3808:"Warning: carmel, 49.37.133.241; User account deleted; ID: 1"
+1593156320_6634:"Notice: 49.37.133.241; User authentication succeeded: carmel"
+1593156474_3167:"Warning: carmel, 49.37.133.241; Plugin activated: Yoast SEO (v14.4.1; wordpress-seo\/wp-seo.php)"
+1593156508_3721:"Warning: carmel, 49.37.133.241; Plugin activated: Protect WP-Admin (v3.2; protect-wp-admin\/protect-wp-admin.php)"
+1593156737_9941:"Warning: carmel, 49.37.133.241; Plugin deactivated: Protect WP-Admin (v3.2; protect-wp-admin\/protect-wp-admin.php)"
+1593156883_2896:"Warning: carmel, 49.37.133.241; Plugin activated: Protect WP-Admin (v3.2; protect-wp-admin\/protect-wp-admin.php)"
+1593156931_5204:"Warning: carmel, 49.37.133.241; Plugin deactivated: Protect WP-Admin (v3.2; protect-wp-admin\/protect-wp-admin.php)"
+1593156980_2894:"Notice: 49.37.133.241; User authentication succeeded: carmel"
+1593182531_9458:"Notice: 49.37.133.241; User authentication succeeded: carmel"
+1593182550_2277:"Notice: carmel, 49.37.133.241; User authentication succeeded: carmel"
+1594246622_0202:"Warning: 68.183.95.187; Post deleted: (multiple entries): Post id: 7,Post author: 2,Post type: post,Post status: auto-draft,Post inserted: 2020-06-25 12:26:28,Post modified: 2020-06-25 12:26:28,Post guid: https:\/\/carmelheights.in\/blog\/?p=7,Post title: Auto Draft"
+1594246622_0308:"Warning: 68.183.95.187; Post deleted: (multiple entries): Post id: 8,Post author: 2,Post type: post,Post status: auto-draft,Post inserted: 2020-06-26 06:22:03,Post modified: 2020-06-26 06:22:03,Post guid: https:\/\/carmelheights.in\/blog\/?p=8,Post title: Auto Draft"
+1594246622_0405:"Warning: 68.183.95.187; Post deleted: (multiple entries): Post id: 9,Post author: 2,Post type: post,Post status: auto-draft,Post inserted: 2020-06-26 07:24:29,Post modified: 2020-06-26 07:24:29,Post guid: https:\/\/carmelheights.in\/blog\/?p=9,Post title: Auto Draft"
+1594246630_6253:"Notice: 68.183.95.187; Automatic update of security keys succeeded."
+1594289990_5981:"Notice: 68.183.95.187; Automatic update of security keys succeeded."
+1594291307_0178:"Notice: 49.37.139.151; User authentication succeeded: carmel"
+1594291307_8364:"Notice: carmel, 49.37.139.151; Post status has been changed; details: ID: 10,Old status: new,New status: auto-draft,Title: Auto Draft"
+1594291362_2753:"Debug: carmel, 49.37.139.151; Sucuri plugin has been deactivated"
+1594291362_2771:"Warning: carmel, 49.37.139.151; Plugin deactivated: Sucuri Security - Auditing, Malware Scanner and Hardening (v1.8.24; sucuri-scanner\/sucuri.php)"

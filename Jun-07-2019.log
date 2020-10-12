@@ -1,0 +1,144 @@
+[07-Jun-2019 12:15:39 Asia/Kolkata] 
+New Enquiry | full_name: 'jagan', phone: '+919951123987', email: 'jagan365@gmail.com', message: '', lead_type: 'Carmel Heights Website | New Enquiry', date_captured: '2019-06-07 12:15:39'
+
+
+[07-Jun-2019 12:15:39 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'carmelheights_db'@'localhost' (using password: YES) in /var/www/html/leadgrab.php on line 80
+[07-Jun-2019 12:15:39 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/html/leadgrab.php on line 84
+[07-Jun-2019 12:15:39 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_info() in /var/www/html/leadgrab.php:85
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/leadgrab.php on line 85
+[07-Jun-2019 13:41:17 Asia/Kolkata] 
+New Enquiry | full_name: 'jagan', phone: '+919951123988', email: 'jagan365@gmail.com', message: '', lead_type: 'Carmel Heights Website | New Enquiry', date_captured: '2019-06-07 13:41:17'
+
+
+[07-Jun-2019 13:41:17 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'carmelheights_db'@'localhost' (using password: YES) in /var/www/html/leadgrab.php on line 80
+[07-Jun-2019 13:41:17 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/html/leadgrab.php on line 84
+[07-Jun-2019 13:41:17 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_info() in /var/www/html/leadgrab.php:85
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/leadgrab.php on line 85
+[07-Jun-2019 13:43:05 Asia/Kolkata] 
+New Enquiry | full_name: 'jagan', phone: '+919951123989', email: 'jagan365@gmail.com', message: '', lead_type: 'Carmel Heights Website | New Enquiry', date_captured: '2019-06-07 13:43:05'
+
+
+[07-Jun-2019 13:43:05 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1698): Access denied for user 'root'@'localhost' in /var/www/html/leadgrab.php on line 81
+[07-Jun-2019 13:43:05 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/html/leadgrab.php on line 85
+[07-Jun-2019 13:43:05 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_info() in /var/www/html/leadgrab.php:86
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/leadgrab.php on line 86
+[07-Jun-2019 14:52:00 Asia/Kolkata] 
+New Enquiry | full_name: 'jagan', phone: '+919951123987', email: 'jagan365@gmail.com', message: '', lead_type: 'Carmel Heights Website | New Enquiry', date_captured: '2019-06-07 14:52:00'
+
+
+[07-Jun-2019 14:52:00 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1698): Access denied for user 'root'@'localhost' in /var/www/html/leadgrab.php on line 81
+[07-Jun-2019 14:52:00 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /var/www/html/leadgrab.php on line 85
+[07-Jun-2019 14:52:00 Asia/Kolkata] PHP Warning:  mysqli_info() expects exactly 1 parameter, 0 given in /var/www/html/leadgrab.php on line 86
+[07-Jun-2019 14:52:00 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /var/www/html/leadgrab.php on line 87
+[07-Jun-2019 14:52:00 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /var/www/html/leadgrab.php:91
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/leadgrab.php on line 91
+[07-Jun-2019 15:00:10 Asia/Kolkata] PHP Notice:  Undefined variable: type in /var/www/html/leadgrab.php on line 91
+[07-Jun-2019 15:00:10 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /var/www/html/leadgrab.php on line 91
+[07-Jun-2019 15:00:10 Asia/Kolkata] PHP Notice:  Undefined variable: full_name in /var/www/html/leadgrab.php on line 91
+[07-Jun-2019 15:00:10 Asia/Kolkata] PHP Notice:  Undefined variable: phone in /var/www/html/leadgrab.php on line 91
+[07-Jun-2019 15:00:10 Asia/Kolkata] PHP Notice:  Undefined variable: email in /var/www/html/leadgrab.php on line 91
+[07-Jun-2019 15:00:10 Asia/Kolkata] PHP Notice:  Undefined variable: message in /var/www/html/leadgrab.php on line 91
+[07-Jun-2019 15:00:10 Asia/Kolkata] PHP Notice:  Undefined variable: type in /var/www/html/leadgrab.php on line 91
+[07-Jun-2019 15:00:10 Asia/Kolkata] PHP Notice:  Undefined variable: date in /var/www/html/leadgrab.php on line 91
+[07-Jun-2019 15:00:10 Asia/Kolkata] 
+Error: couldn't save  into DB | mysql_error:  | data: '', '', '', '', '', '', '', ''
+
+[07-Jun-2019 15:00:10 Asia/Kolkata] PHP Notice:  Undefined variable: error_messages in /var/www/html/leadgrab.php on line 97
+[07-Jun-2019 15:03:43 Asia/Kolkata] PHP Notice:  Undefined variable: type in /var/www/html/leadgrab.php on line 93
+[07-Jun-2019 15:03:43 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /var/www/html/leadgrab.php on line 93
+[07-Jun-2019 15:03:43 Asia/Kolkata] PHP Notice:  Undefined variable: full_name in /var/www/html/leadgrab.php on line 93
+[07-Jun-2019 15:03:43 Asia/Kolkata] PHP Notice:  Undefined variable: phone in /var/www/html/leadgrab.php on line 93
+[07-Jun-2019 15:03:43 Asia/Kolkata] PHP Notice:  Undefined variable: email in /var/www/html/leadgrab.php on line 93
+[07-Jun-2019 15:03:43 Asia/Kolkata] PHP Notice:  Undefined variable: message in /var/www/html/leadgrab.php on line 93
+[07-Jun-2019 15:03:43 Asia/Kolkata] PHP Notice:  Undefined variable: type in /var/www/html/leadgrab.php on line 93
+[07-Jun-2019 15:03:43 Asia/Kolkata] PHP Notice:  Undefined variable: date in /var/www/html/leadgrab.php on line 93
+[07-Jun-2019 15:03:43 Asia/Kolkata] 
+Error: couldn't save  into DB | mysql_error:  | data: '', '', '', '', '', '', '', ''
+
+[07-Jun-2019 15:03:43 Asia/Kolkata] PHP Notice:  Undefined variable: error_messages in /var/www/html/leadgrab.php on line 99
+[07-Jun-2019 15:22:20 Asia/Kolkata] 
+New Enquiry | full_name: 'jagan', phone: '+919951123999', email: 'jagan365@gmail.com', message: '', lead_type: 'Carmel Heights Website | New Enquiry', date_captured: '2019-06-07 15:22:20'
+
+
+[07-Jun-2019 15:22:20 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1698): Access denied for user 'root'@'localhost' in /var/www/html/leadgrab.php on line 81
+[07-Jun-2019 15:43:50 Asia/Kolkata] 
+New Enquiry | full_name: 'jagan', phone: '+919951123999', email: 'jagan365@gmail.com', message: '', lead_type: 'Carmel Heights Website | New Enquiry', date_captured: '2019-06-07 15:43:50'
+
+
+[07-Jun-2019 15:47:57 Asia/Kolkata] 
+New Enquiry | full_name: 'jagan', phone: '+919951123999', email: 'jagan365@gmail.com', message: '', lead_type: 'Carmel Heights Website | New Enquiry', date_captured: '2019-06-07 15:47:57'
+
+
+[07-Jun-2019 16:04:22 Asia/Kolkata] 
+New Enquiry | full_name: 'jagan', phone: '+919951123999', email: 'jagan365@gmail.com', message: '', lead_type: 'Carmel Heights Website | New Enquiry', date_captured: '2019-06-07 16:04:22'
+
+
+[07-Jun-2019 16:04:22 Asia/Kolkata] PHP Warning:  mysqli_info() expects exactly 1 parameter, 0 given in /var/www/html/leadgrab.php on line 97
+[07-Jun-2019 16:04:22 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /var/www/html/leadgrab.php on line 98
+[07-Jun-2019 16:04:22 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /var/www/html/leadgrab.php on line 102
+[07-Jun-2019 16:04:22 Asia/Kolkata] 
+Error: couldn't save Carmel Heights Website | New Enquiry into DB | mysql_error:  | data: 'jagan', '+919951123999', 'jagan365@gmail.com', '', 'Carmel Heights Website | New Enquiry', '183.83.162.23', 'http://134.209.154.56/floor-plans.php?', '2019-06-07 16:04:22'
+
+[07-Jun-2019 16:10:35 Asia/Kolkata] 
+New Enquiry | full_name: 'jagan', phone: '+919951123999', email: 'jagan365@gmail.com', message: '', lead_type: 'Carmel Heights Website | New Enquiry', date_captured: '2019-06-07 16:10:35'
+
+
+[07-Jun-2019 16:10:35 Asia/Kolkata] 
+Error: couldn't save Carmel Heights Website | New Enquiry into DB | mysql_error: Field 'firstname' doesn't have a default value | data: 'jagan', '+919951123999', 'jagan365@gmail.com', '', 'Carmel Heights Website | New Enquiry', '183.83.162.23', 'http://134.209.154.56/floor-plans.php?', '2019-06-07 16:10:35'
+
+[07-Jun-2019 16:32:24 Asia/Kolkata] 
+New Enquiry | full_name: 'jagan', phone: '+919951123999', email: 'jagan365@gmail.com', message: '', lead_type: 'Carmel Heights Website | New Enquiry', date_captured: '2019-06-07 16:32:24'
+
+
+[07-Jun-2019 16:32:24 Asia/Kolkata] 
+Error: couldn't save Carmel Heights Website | New Enquiry into DB | mysql_error: Field 'lastname' doesn't have a default value | data: 'jagan', '+919951123999', 'jagan365@gmail.com', '', 'Carmel Heights Website | New Enquiry', '183.83.162.23', 'http://134.209.154.56/floor-plans.php?', '2019-06-07 16:32:24'
+
+[07-Jun-2019 17:12:48 Asia/Kolkata] 
+New Enquiry | full_name: 'jagan', phone: '+919951123999', email: 'jagan365@gmail.com', message: '', lead_type: 'Carmel Heights Website | New Enquiry', date_captured: '2019-06-07 17:12:48'
+
+
+[07-Jun-2019 17:12:48 Asia/Kolkata] 
+Error: couldn't save Carmel Heights Website | New Enquiry into DB | mysql_error: Field 'lastname' doesn't have a default value | data: 'jagan', '+919951123999', 'jagan365@gmail.com', '', 'Carmel Heights Website | New Enquiry', '183.83.162.23', 'http://134.209.154.56/floor-plans.php?', '2019-06-07 17:12:48'
+
+[07-Jun-2019 17:27:22 Asia/Kolkata] 
+New Enquiry | full_name: 'jagan', phone: '+919951123999', email: 'jagan365@gmail.com', message: '', lead_type: 'Carmel Heights Website | New Enquiry', date_captured: '2019-06-07 17:27:22'
+
+
+[07-Jun-2019 17:27:22 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/www/html/functions.php:70
+Stack trace:
+#0 /var/www/html/functions.php(21): _send_api('webmaster@carme...', 'Carmel Heights', Array, 'Neha Purohit', 'New Lead - Carm...', '\n<!DOCTYPE html...', '', Array, Array, true, 'neha.purohit@de...')
+#1 /var/www/html/leadgrab.php(203): send_email('webmaster@carme...', 'Carmel Heights', Array, 'Neha Purohit', 'New Lead - Carm...', '\n<!DOCTYPE html...', '', Array, Array)
+#2 {main}
+  thrown in /var/www/html/functions.php on line 70
+[07-Jun-2019 18:32:03 Asia/Kolkata] 
+New Enquiry | full_name: 'jagan', phone: '+919951123999', email: 'jagan365@gmail.com', message: '', lead_type: 'Carmel Heights Website | New Enquiry', date_captured: '2019-06-07 18:32:03'
+
+
+[07-Jun-2019 18:32:03 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/www/html/functions.php:70
+Stack trace:
+#0 /var/www/html/functions.php(21): _send_api('webmaster@carme...', 'Carmel Heights', Array, 'Neha Purohit', 'New Lead - Carm...', '\n<!DOCTYPE html...', '', Array, Array, true, 'neha.purohit@de...')
+#1 /var/www/html/leadgrab.php(203): send_email('webmaster@carme...', 'Carmel Heights', Array, 'Neha Purohit', 'New Lead - Carm...', '\n<!DOCTYPE html...', '', Array, Array)
+#2 {main}
+  thrown in /var/www/html/functions.php on line 70
+[07-Jun-2019 18:34:29 Asia/Kolkata] 
+New Enquiry | full_name: 'jagan', phone: '+919951123999', email: 'jagan365@gmail.com', message: '', lead_type: 'Carmel Heights Website | New Enquiry', date_captured: '2019-06-07 18:34:29'
+
+
+[07-Jun-2019 18:34:29 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/www/html/functions.php:70
+Stack trace:
+#0 /var/www/html/functions.php(21): _send_api('webmaster@carme...', 'Carmel Heights', Array, 'Jagan', 'New Lead - Carm...', '\n<!DOCTYPE html...', '', Array, Array, true, 'dev.tech1@incor...')
+#1 /var/www/html/leadgrab.php(196): send_email('webmaster@carme...', 'Carmel Heights', Array, 'Jagan', 'New Lead - Carm...', '\n<!DOCTYPE html...', '', Array, Array)
+#2 {main}
+  thrown in /var/www/html/functions.php on line 70
+[07-Jun-2019 18:52:37 Asia/Kolkata] 
+New Enquiry | full_name: 'jagan', phone: '+919951123999', email: 'jagan365@gmail.com', message: '', lead_type: 'Carmel Heights Website | New Enquiry', date_captured: '2019-06-07 18:52:37'
+
+
